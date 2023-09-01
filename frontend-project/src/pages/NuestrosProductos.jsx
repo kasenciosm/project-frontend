@@ -5,7 +5,7 @@ import { Platanos } from '../utils/Platanos'
 
 const NuestrosProductos = () => {
   return (
-    <section className='flex flex-col gap-10 pt-28 px-6 py-6 items-center pl-20'>
+    <section className='flex flex-col gap-10 pt-28 px-6 py-6 items-center pl-10'>
         <article className='flex flex-row gap-10 pl-10 text-gray-800'>
             <div className='text-center w-96 items-center pt-16'>
                 <h1 className='font-bold px-8 pb-6 '>CACAO</h1>
