@@ -27,7 +27,10 @@ const LayoutBase = (props) => {
                             <Link to= '/' className="hover:underline hover:text-blue-950">Home</Link>
                             <Link to= '/Nosotros' className="hover:underline hover:text-blue-950">Nosotros</Link>
                             <Link to= '/NuestrosProductos' className="hover:underline hover:text-blue-950">Nuestros Productos</Link>
-                            <Link to= '/TiendaVirtual' className="hover:underline hover:text-blue-950">Tienda Virtual</Link>
+                            <Link to= '/Tiendita' className="hover:underline hover:text-blue-950">Tiendita</Link>
+                            <Link to= '/Carrito' className="hover:text-yellow-400">
+                                <LuShoppingCart/>
+                            </Link>
                             <button onClick={handleLogout} className="pl-40">Salir</button>
                         </>
                     )}
@@ -40,9 +43,6 @@ const LayoutBase = (props) => {
                             <Link to= '/NuestrosProductos' className="hover:underline hover:text-blue-950">Nuestros Productos</Link>
                             
                             <nav className="pl-60 flex gap-8 font-semibold">
-                                <Link to= '/Carrito' className="hover:text-yellow-400">
-                                    <LuShoppingCart/>
-                                </Link>
                                 <Link to= '/Ingresar' className="hover:text-yellow-400">
                                     <IoIosPerson />
                                 </Link>

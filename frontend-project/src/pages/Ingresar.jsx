@@ -47,7 +47,7 @@ const Ingresar = () => {
       
       delete cloneData.password
       storeUser(cloneData)
-      navigate('/')
+      navigate('/Tiendita')
 
     } else {
       MySwal.fire({

@@ -1,11 +1,10 @@
 const {onRequest} = require("firebase-functions/v2/https");
 const admin = require("firebase-admin");
 const express = require("express");
-const cors = require ("cors")
-
-express.use(cors())
+const cors = require("cors");
 
 const app = express();
+app.use(cors());
 admin.initializeApp({
   credential: admin.credential.cert("./asmati-food-credentials.json"),
   databaseURL: "https://asmati-food-default-rtdb.firebaseio.com",
